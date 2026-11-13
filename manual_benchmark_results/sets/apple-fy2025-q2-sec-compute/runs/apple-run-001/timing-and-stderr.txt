@@ -1,0 +1,1 @@
+env -u OPENAI_API_KEY -u CODEX_API_KEY codex exec --json --skip-git-repo-chec  0.84s user 0.46s system 4% cpu 27.625 total

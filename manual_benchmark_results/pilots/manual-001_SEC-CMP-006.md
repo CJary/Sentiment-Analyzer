@@ -1,6 +1,6 @@
 # Manual Benchmark Result — SEC-CMP-006
 
-> **Pilot only.** This run covered 1 of 5 questions. Set token usage and the original reasoning display were not captured. See [the full-set procedure](apple-full-set-procedure.md) for the next run.
+> **Pilot only.** This run covered 1 of 5 questions. Set token usage and the original reasoning display were not captured. See [the full-set procedure](../sets/apple-fy2025-q2-sec-compute/procedure.md) for the next run.
 
 Run ID: `manual-001`  
 Report prepared: November 3, 2026  
@@ -13,7 +13,7 @@ Run date: Not recorded
 | Platform | ChatGPT, manual execution |
 | Model / setting | GPT-6, medium thinking (user-reported; exact model version not captured) |
 | Benchmark | SEC-CMP-006 — Apple quarterly net sales growth |
-| Dataset | `sec_compute_aapl_10q.json`, first question |
+| Dataset | [Apple SEC computation](../../Dataset/sec/compute/sec_compute_aapl_10q.json), first question |
 | Test scope | Financial question-answering baseline |
 | Input | Benchmark prompt supplied in this chat; exact submitted request not separately archived |
 
