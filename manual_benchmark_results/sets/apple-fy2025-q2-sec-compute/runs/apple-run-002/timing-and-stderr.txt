@@ -1,0 +1,1 @@
+env -u OPENAI_API_KEY -u CODEX_API_KEY codex exec --model gpt-6-astra -c       0.99s user 0.42s system 3% cpu 40.317 total

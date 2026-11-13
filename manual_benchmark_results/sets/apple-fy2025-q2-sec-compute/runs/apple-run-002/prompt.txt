@@ -1,0 +1,29 @@
+Answer all five questions in order in a single run. Use only Apple's FY2025 Q2 Form 10-Q:
+https://www.sec.gov/Archives/edgar/data/320193/000032019325000057/aapl-20250329.htm
+
+For each question, return its ID, final answer with units, the filing section and periods used, and a brief calculation with the source values. If you cannot access the filing or verify a value, state the limitation under that question ID. Do not substitute unsupported figures.
+
+For each question, include an execution record in the order the steps occurred:
+
+1. Retrieve: filing URL, tool used, and retrieval status.
+2. Locate: statement or note, row label, and column heading.
+3. Extract: each source value with its reporting period and unit.
+4. Calculate: formula, substituted values, unrounded result (or exact expression if the decimal repeats), and rounded result.
+5. Report: final answer and citation.
+
+If a step fails, name the failed step and describe the error. If a tool was not used, do not claim it was. If multiple questions share a retrieval step, reference it from each relevant question. Identify any calculation performed without a tool.
+
+SEC-CMP-006
+Using Apple's FY2025 Q2 10-Q, calculate total net sales growth from the three months ended March 30, 2024 to the three months ended March 29, 2025. Return a percentage rounded to two decimal places.
+
+SEC-CMP-007
+Using Apple's FY2025 Q2 10-Q, calculate its consolidated operating margin for the three months ended March 29, 2025. Return a percentage rounded to two decimal places.
+
+SEC-CMP-008
+Using Apple's FY2025 Q2 10-Q, calculate the current ratio as of March 29, 2025. Return the ratio rounded to four decimal places.
+
+SEC-CMP-009
+Using Apple's FY2025 Q2 10-Q, calculate Services net sales as a percentage of total net sales for the three months ended March 29, 2025. Return a percentage rounded to two decimal places.
+
+SEC-CMP-010
+Using only Apple's FY2025 Q2 10-Q, derive FY2025 Q1 total net sales by subtracting second-quarter sales from six-month sales, then calculate Q2 versus Q1 sales growth. Return derived Q1 sales in USD millions and sequential growth as a percentage rounded to two decimal places.
